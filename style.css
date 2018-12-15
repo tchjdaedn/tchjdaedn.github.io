@@ -1,0 +1,75 @@
+section {
+	padding-left: 5%;
+	padding-right: 5%;
+}
+
+footer {
+		font-size:8;
+		margin-top: 0;
+		margin-bottom: 0;
+		margin-left: 0;
+		margin-right: 0;
+		position: absolute;
+		bottom: 0;
+		background-color: darkgrey;
+		padding-bottom:15px;
+		padding-top:13px;
+		text-align: center;
+		color: white;
+}
+
+img {
+	margin: 5px;
+}
+
+td {
+	text-align: center;
+	Padding-left: 2px;
+	padding-right: 2px;
+}
+
+
+
+.navbar-brand {
+		position: aboslute;
+		Margin-left: 0%;
+		background-color: lightgray;
+	}
+
+
+@media screen and (max-width: 992px) {
+  body {
+	font-family: serif;
+	font-size:14;
+	background-color: lightgray;
+  }
+  .navbar-brand {
+	position: aboslute;
+	Margin-left: 5%;
+	background-color: darkgray;
+}
+}
+
+@media screen and (max-width: 600px) {
+  body {
+	font-weight: bold;
+	font-size:11;
+	color:lightgray;
+	font:comicsans;
+    background-color: gray;
+  }
+  .navbar-brand {
+	position: aboslute;
+	Margin-left: 10%;
+	background-color: white;
+	
+	}
+
+	section {
+	padding-left: 10px;
+	padding-right: 5px;
+}
+
+}
+
+

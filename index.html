@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<title>HTML exercise</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	<nav class="navbar navbar-default">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false" aria-controls="navbar">
+				<span class="sr-only">This works now</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+				<a class="navbar-brand" href="index.html" >Latitude</a>
+			</div>
+
+			<div id="navbar-collapse" class="navbar-collapse collapse in" aria-expanded="false" style="height: 1px;">
+			
+				<ul class="nav navbar-nav navbar-right">		
+				<li class="dropdown">
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Plots<span class="caret"></span></a>
+					<ul class="dropdown-menu">
+						<li><a href="vis1.html">Max Temperature</a></li>
+						<li><a href="vis2.html">Humidity</a></li>
+						<li><a href="vis3.html">Cloudiness</a></li>
+						<li><a href="vis4.html">Wind Speed</a></li>
+					</ul>
+				<li><a href="comparisons.html">Comparisons</a></li>
+				<li><a href="data.html">Data</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+<div class="col-md-7">
+	<h3>Summary: Latitude Vs. X</h3>
+	<img src="images/Fig1.png" width=33% align=left class="img-responsive inline-block" alt="Responsive image" />This site was created to illustrate various weather trends in cities around the world based on their latitude.	It is divided into various sections, the basis of which is this homepage which can be accessed at any time by clicking the "Latitude" link in the upper left.  The additional sections can be accessed through the links in the upper right (or drop-down menmu if you are using a low-res platform such as a mobile device).
+<p><br>
+The second set of pages are the Visualization descriptions.  These are accessible through the individual links in the "Plots" drop-down menu.  Each page focuses on a single data visualization and provides a bit more in-depth detail.
+<p>
+The next page is the Comparisons page. This contains side-by-side versions of the visualizations for easier comparison and contrast.  This page does not contain any further text descriptions.
+<p>
+The final page is the raw data set used to create the visualizations. While this data was originally assembled in a comma-separated-values file, it was loaded into Microsoft Excel and converted into an html table.  The date stamp was not converted in the process, and so does not have a standard format.
+	</div>
+
+<div class="col-md-5">
+	<h3>Visualizations</h3>
+
+	<a href="vis1.html"><img src="images/Fig1.png" alt="Max Temperature" width=200></a>
+	<a href="vis2.html"><img src="images/Fig2.png" alt="Humidity" width=200></a>
+
+	<a href="vis3.html"><img src="images/Fig3.png" alt="Cloudiness" width=200></a>
+	<a href="vis4.html"><img src="images/Fig4.png" alt="Wind Speed" width=200></a>
+
+</div>
+
+<footer class="col-md-12">
+Copyright Raleigh G. Love 2018
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>
